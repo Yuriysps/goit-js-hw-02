@@ -7,11 +7,11 @@ console.log('task-2.js');
 //todo Якщо довжина перевищує maxLength, то функція обрізає рядок до maxLength символів, додає трикрапку "..." в кінці та повертає обрізану версію.
 
 function formatMessage(message, maxLength) {
-    if (message => maxLength) {
-        return message.slice(0, maxLength )+ '.......';
+    if (message <= maxLength) {
+        return message
     }
     else {
-        return message
+        return message.slice(0, maxLength )+ '...';
     }
 }
 
