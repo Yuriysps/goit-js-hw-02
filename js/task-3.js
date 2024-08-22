@@ -15,7 +15,7 @@ function checkForSpam(message) {
         
     }   
     else {
-        return false
+        return false;
     }
 }
 
