@@ -11,11 +11,11 @@ console.log('task-3.js');
 
 function checkForSpam(message) {
     if (message.toLowerCase().includes('spam') || message.toLowerCase().includes('sale')) {
-        return 'true';
+        return true;
         
     }   
     else {
-        return 'false'
+        return false
     }
 }
 
