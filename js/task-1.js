@@ -39,3 +39,10 @@ document.getElementById("task-1/2").innerHTML= makeTransaction(3, 1000, 15000);
 document.getElementById("task-1/3").innerHTML= makeTransaction(10, 5000, 8000);
 document.getElementById("task-1/4").innerHTML= makeTransaction(8, 2000, 10000);
 document.getElementById("task-1/5").innerHTML= makeTransaction(10, 500, 5000);
+
+
+    
+     
+  
+   
+

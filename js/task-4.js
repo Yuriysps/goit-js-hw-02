@@ -54,4 +54,4 @@ document.getElementById("task-4/2").innerHTML = getShippingCost("Germany"); // "
 document.getElementById("task-4/3").innerHTML = getShippingCost("China"); // "Shipping to China will cost 100 credits"
 document.getElementById("task-4/4").innerHTML = getShippingCost("Chile"); // "Shipping to Chile will cost 250 credits"
 document.getElementById("task-4/5").innerHTML = getShippingCost("Jamaica"); // "Shipping to Jamaica will cost 120 credits"
-document.getElementById("task-4/6").innerHTML = getShippingCost("Sweden"); // "Sorry, there is no delivery to your country"
+document.getElementById("task-4/6").innerHTML = getShippingCost("Sweden"); // "Sorry, there is no delivery to your country"'  

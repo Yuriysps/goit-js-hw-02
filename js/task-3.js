@@ -27,10 +27,10 @@ console.log(checkForSpam("Trust me, this is not a spam message")); // true
 console.log(checkForSpam("Get rid of sPaM emails. Our book in on sale!")); // true
 console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 
-document.getElementById("task-3/1").innerHTML= formatMessage("Latest technology news"); // false
-document.getElementById("task-3/2").innerHTML= formatMessage("JavaScript weekly newsletter"); // false
-document.getElementById("task-3/3").innerHTML= formatMessage("Get best sale offers now!"); // true
-document.getElementById("task-3/4").innerHTML= formatMessage("Amazing SalE, only tonight!"); // true
-document.getElementById("task-3/5").innerHTML= formatMessage("Trust me, this is not a spam message"); // true
-document.getElementById("task-3/6").innerHTML= formatMessage("Get rid of sPaM emails. Our book in on sale!"); // true
-document.getElementById("task-3/7").innerHTML= formatMessage("[SPAM] How to earn fast money?"); // true
+document.getElementById("task-3/1").innerHTML= checkForSpam("Latest technology news"); // false
+document.getElementById("task-3/2").innerHTML= checkForSpam("JavaScript weekly newsletter"); // false
+document.getElementById("task-3/3").innerHTML= checkForSpam("Get best sale offers now!"); // true
+document.getElementById("task-3/4").innerHTML= checkForSpam("Amazing SalE, only tonight!"); // true
+document.getElementById("task-3/5").innerHTML= checkForSpam("Trust me, this is not a spam message"); // true
+document.getElementById("task-3/6").innerHTML= checkForSpam("Get rid of sPaM emails. Our book in on sale!"); // true
+document.getElementById("task-3/7").innerHTML= checkForSpam("[SPAM] How to earn fast money?"); // true
